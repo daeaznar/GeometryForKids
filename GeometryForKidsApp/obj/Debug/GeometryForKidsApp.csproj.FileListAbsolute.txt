@@ -8,3 +8,4 @@ D:\Desktop\UNIVA\7°\Programación Visual y por Eventos\Proyecto\GeometryForKids
 D:\Desktop\UNIVA\7°\Programación Visual y por Eventos\Proyecto\GeometryForKids\GeometryForKidsApp\obj\Debug\GeometryForKidsApp.exe
 D:\Desktop\UNIVA\7°\Programación Visual y por Eventos\Proyecto\GeometryForKids\GeometryForKidsApp\obj\Debug\GeometryForKidsApp.pdb
 D:\Desktop\UNIVA\7°\Programación Visual y por Eventos\Proyecto\GeometryForKids\GeometryForKidsApp\obj\Debug\GeometryForKidsApp.csprojAssemblyReference.cache
+D:\Desktop\UNIVA\7°\Programación Visual y por Eventos\Proyecto\GeometryForKids\GeometryForKidsApp\obj\Debug\GeometryForKidsApp.Index.resources

@@ -64,10 +64,11 @@ namespace GeometryForKidsApp
             // 
             this.txtName.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtName.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtName.Location = new System.Drawing.Point(195, 248);
+            this.txtName.Location = new System.Drawing.Point(225, 248);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(291, 30);
+            this.txtName.Size = new System.Drawing.Size(225, 30);
             this.txtName.TabIndex = 2;
+            this.txtName.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtName_KeyDown);
             // 
             // btnGo
             // 
@@ -107,8 +108,8 @@ namespace GeometryForKidsApp
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtName;
         private System.Windows.Forms.Button btnGo;
+        public System.Windows.Forms.TextBox txtName;
     }
 }
 

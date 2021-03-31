@@ -12,6 +12,7 @@ namespace GeometryForKidsApp
 {
     public partial class Form1 : Form
     {
+        public static string student;
         public Form1()
         {
             InitializeComponent();
@@ -19,9 +20,18 @@ namespace GeometryForKidsApp
 
         private void btnGo_Click(object sender, EventArgs e)
         {
-            string student = txtName.Text;
-            MessageBox.Show($"Welcome {student}");
+            student = txtName.Text;   
+            Index window = new Index();
+            window.Show();
+            this.Hide();
         }
 
+        private void txtName_KeyDown(object sender, KeyEventArgs e) //BtnGo_click when pressing enter ir txtName field
+        {
+            if(e.KeyCode == Keys.Enter)
+            {
+                btnGo_Click(this, new EventArgs());
+            }
+        }
     }
 }
