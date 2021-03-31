@@ -1,0 +1,9 @@
+D:\Desktop\UNIVA\7°\Programación Visual y por Eventos\Proyecto\GeometryForKids\GeometryForKids\bin\Debug\GeometryForKids.exe.config
+D:\Desktop\UNIVA\7°\Programación Visual y por Eventos\Proyecto\GeometryForKids\GeometryForKids\bin\Debug\GeometryForKids.exe
+D:\Desktop\UNIVA\7°\Programación Visual y por Eventos\Proyecto\GeometryForKids\GeometryForKids\bin\Debug\GeometryForKids.pdb
+D:\Desktop\UNIVA\7°\Programación Visual y por Eventos\Proyecto\GeometryForKids\GeometryForKids\obj\Debug\GeometryForKids.Form1.resources
+D:\Desktop\UNIVA\7°\Programación Visual y por Eventos\Proyecto\GeometryForKids\GeometryForKids\obj\Debug\GeometryForKids.Properties.Resources.resources
+D:\Desktop\UNIVA\7°\Programación Visual y por Eventos\Proyecto\GeometryForKids\GeometryForKids\obj\Debug\GeometryForKids.csproj.GenerateResource.cache
+D:\Desktop\UNIVA\7°\Programación Visual y por Eventos\Proyecto\GeometryForKids\GeometryForKids\obj\Debug\GeometryForKids.csproj.CoreCompileInputs.cache
+D:\Desktop\UNIVA\7°\Programación Visual y por Eventos\Proyecto\GeometryForKids\GeometryForKids\obj\Debug\GeometryForKids.exe
+D:\Desktop\UNIVA\7°\Programación Visual y por Eventos\Proyecto\GeometryForKids\GeometryForKids\obj\Debug\GeometryForKids.pdb
