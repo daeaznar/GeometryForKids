@@ -57,6 +57,7 @@ namespace GeometryForKidsApp
             this.Name = "ProjectReferences";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "References";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.ProjectReferences_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 

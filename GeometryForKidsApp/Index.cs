@@ -19,52 +19,57 @@ namespace GeometryForKidsApp
 
         private void btnNext_Click(object sender, EventArgs e)
         {
-            //PerimetersAndAreas perimsAndAreas = new PerimetersAndAreas();
-            //perimsAndAreas.Show();
-            Form1.perimsAndAreas.Show();
-            this.Close();
+            PerimetersAndAreas perimsAndAreas = new PerimetersAndAreas(this);
+            perimsAndAreas.Show();
+            this.Hide();
         }
 
         private void llbPerimsAndAreas_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            PerimetersAndAreas perimsAndAreas = new PerimetersAndAreas();
+            PerimetersAndAreas perimsAndAreas = new PerimetersAndAreas(this);
             perimsAndAreas.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void llbVolumes_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Volumes volumes = new Volumes();
+            Volumes volumes = new Volumes(this);
             volumes.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void llbAngles_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Angles angles = new Angles();
+            Angles angles = new Angles(this);
             angles.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void llbProtractors_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Protractors protractos = new Protractors();
+            Protractors protractos = new Protractors(this);
             protractos.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void llbPolygons_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Polygons polygons = new Polygons();
+            Polygons polygons = new Polygons(this);
             polygons.Show();
-            this.Close();
+            this.Hide();
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) //llbReferences
         {
-            ProjectReferences references = new ProjectReferences();
+            ProjectReferences references = new ProjectReferences(this);
             references.Show();
-            this.Close();
+            this.Hide();
         }
+
+        private void Index_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+
     }
 }

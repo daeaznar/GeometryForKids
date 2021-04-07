@@ -12,9 +12,16 @@ namespace GeometryForKidsApp
 {
     public partial class Protractors : Form
     {
-        public Protractors()
+        private Form parent;
+        public Protractors(Form caller)
         {
+            parent = caller;
             InitializeComponent();
+        }
+
+        private void Protractors_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            parent.Show();
         }
     }
 }

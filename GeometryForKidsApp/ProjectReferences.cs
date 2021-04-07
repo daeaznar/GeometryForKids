@@ -12,9 +12,16 @@ namespace GeometryForKidsApp
 {
     public partial class ProjectReferences : Form
     {
-        public ProjectReferences()
+        private Form parent;
+        public ProjectReferences(Form caller)
         {
+            parent = caller;
             InitializeComponent();
+        }
+
+        private void ProjectReferences_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            parent.Show();
         }
     }
 }

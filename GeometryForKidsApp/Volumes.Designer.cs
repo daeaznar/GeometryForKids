@@ -56,6 +56,7 @@ namespace GeometryForKidsApp
             this.Name = "Volumes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Volumes";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Volumes_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 

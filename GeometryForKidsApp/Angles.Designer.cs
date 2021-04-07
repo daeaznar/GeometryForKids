@@ -56,6 +56,7 @@ namespace GeometryForKidsApp
             this.Name = "Angles";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Lines & Angles";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Angles_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 

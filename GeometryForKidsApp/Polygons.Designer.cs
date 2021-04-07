@@ -56,6 +56,7 @@ namespace GeometryForKidsApp
             this.Name = "Polygons";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Polygons";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Polygons_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 

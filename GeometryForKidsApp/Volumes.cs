@@ -12,9 +12,16 @@ namespace GeometryForKidsApp
 {
     public partial class Volumes : Form
     {
-        public Volumes()
+        private Form parent;
+        public Volumes(Form caller)
         {
+            parent = caller;
             InitializeComponent();
+        }
+
+        private void Volumes_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            parent.Show();
         }
     }
 }

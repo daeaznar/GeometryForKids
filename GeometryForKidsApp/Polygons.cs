@@ -12,9 +12,16 @@ namespace GeometryForKidsApp
 {
     public partial class Polygons : Form
     {
-        public Polygons()
+        private Form parent;
+        public Polygons(Form caller)
         {
+            parent = caller;
             InitializeComponent();
+        }
+
+        private void Polygons_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            parent.Show();
         }
     }
 }

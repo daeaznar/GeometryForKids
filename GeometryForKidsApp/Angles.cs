@@ -12,9 +12,16 @@ namespace GeometryForKidsApp
 {
     public partial class Angles : Form
     {
-        public Angles()
+        private Form parent;
+        public Angles(Form caller)
         {
+            parent = caller;
             InitializeComponent();
+        }
+
+        private void Angles_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            parent.Show();
         }
     }
 }

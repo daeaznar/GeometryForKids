@@ -6,8 +6,6 @@ namespace GeometryForKidsApp
     public partial class Form1 : Form
     {
         public static string student;
-        public static PerimetersAndAreas perimsAndAreas = new PerimetersAndAreas();
-        public static Index index = new Index();
         public Form1()
         {
             InitializeComponent();
@@ -16,9 +14,8 @@ namespace GeometryForKidsApp
         public void btnGo_Click(object sender, EventArgs e)
         {
             student = txtName.Text;   
-            //Index index = new Index();
+            Index index = new Index();
             index.Show();
-            //PerimetersAndAreas perimsAndAreas = new PerimetersAndAreas();
             this.Hide();
         }
 

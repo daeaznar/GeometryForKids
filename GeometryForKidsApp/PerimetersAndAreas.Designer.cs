@@ -148,6 +148,7 @@ namespace GeometryForKidsApp
             this.Name = "PerimetersAndAreas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Perimeters & Areas";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.PerimetersAndAreas_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 

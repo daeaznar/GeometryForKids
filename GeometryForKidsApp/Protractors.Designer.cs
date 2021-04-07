@@ -56,6 +56,7 @@ namespace GeometryForKidsApp
             this.Name = "Protractors";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Protractors";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Protractors_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 
