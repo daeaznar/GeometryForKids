@@ -118,10 +118,62 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label4.Text" xml:space="preserve">
-    <value>Perimeter is the total length of the sides of a two-dimentional shape (a flat shape). 
-We often find the perimeter when, for example, fencing the backyard garden or meassuring the size of a table. 
-When someone meassures the total length of the boundary a football field, they're calculating the perimeter!
+    <value>Perimeter is the total length of the sides of a 
+two-dimentional shape (a flat shape). 
+
+We often find the perimeter when, for example, 
+fencing the backyard garden or meassuring the size of a table. 
+When someone meassures the total length of the boundary a football field, 
+they're calculating the perimeter!
 </value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>As you may have noticed, there's one shape we haven't talked about yet. That's right: Circles!
+That's because Circles (and elipses) have a unique way to calculate the perimeter. 
+
+First of all, when we talk about the perimeter of a circle, the correct term to use is CIRCUMFERENCE, 
+not perimeter.
+Second, you must know and understand some terms that are present when working with circles:
+
+-Diameter: imagine a straight line that goes from one end of the circle to another, passing right through
+   the center of the circle. This line is the diameter. And is represented by a lowercase "d".
+
+-Radius: this is the meassurement form the center of the circle to one end. So it's exactly the half as the diameter.
+And is represented by a lowercase "r".
+
+-Pi: this is a constant, which means its value is always the same, no matter what. 
+   Its decimals are infinite, but we'll leave it like this: Pi = 3.1416. Pi is represented by this symbol:
+
+</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>The origin of the word area is from ‘area’ in Latin, 
+meaning a vacant piece of level ground. 
+The origin further led to an irregular derivation 
+of area as ‘a particular amount of space 
+contained within a set of boundaries’.
+
+We often find the area of the room floor to
+ determine the size of the carpet to be bought. 
+Covering the floor with tiles, covering the wall 
+with paint or wallpaper.</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>In geometry, the area can be defined as the space occupied by a flat shape or the surface of an object.  
+The area of a figure is the number of unit squares that cover the surface of a closed figure. 
+Area is measured in square units such as square centimteres, square feet, square inches, etc.
+
+The area of these squares, with unit squares of sides 1 centimeter each, will be measured in square centimeters (cm²)</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>In real life, not every plane figure can be 
+clearly classified as a rectangle, square or 
+a triangle. 
+
+To find the area of a composite figure 
+which consists of more than one shape, 
+we need to find the sum of the area of 
+both or all the shapes forming the figure.  </value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

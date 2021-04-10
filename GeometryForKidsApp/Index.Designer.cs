@@ -63,6 +63,7 @@ namespace GeometryForKidsApp
             // 
             // btnExit
             // 
+            this.btnExit.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.Location = new System.Drawing.Point(12, 614);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(79, 35);
@@ -86,7 +87,7 @@ namespace GeometryForKidsApp
             // 
             this.lblPerimsAndAreas.AutoSize = true;
             this.lblPerimsAndAreas.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPerimsAndAreas.Location = new System.Drawing.Point(43, 172);
+            this.lblPerimsAndAreas.Location = new System.Drawing.Point(43, 163);
             this.lblPerimsAndAreas.Name = "lblPerimsAndAreas";
             this.lblPerimsAndAreas.Size = new System.Drawing.Size(602, 33);
             this.lblPerimsAndAreas.TabIndex = 3;
@@ -96,7 +97,7 @@ namespace GeometryForKidsApp
             // 
             this.lblVolumes.AutoSize = true;
             this.lblVolumes.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblVolumes.Location = new System.Drawing.Point(43, 240);
+            this.lblVolumes.Location = new System.Drawing.Point(43, 231);
             this.lblVolumes.Name = "lblVolumes";
             this.lblVolumes.Size = new System.Drawing.Size(598, 33);
             this.lblVolumes.TabIndex = 4;
@@ -106,7 +107,7 @@ namespace GeometryForKidsApp
             // 
             this.lblAngles.AutoSize = true;
             this.lblAngles.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAngles.Location = new System.Drawing.Point(43, 308);
+            this.lblAngles.Location = new System.Drawing.Point(43, 299);
             this.lblAngles.Name = "lblAngles";
             this.lblAngles.Size = new System.Drawing.Size(597, 33);
             this.lblAngles.TabIndex = 5;
@@ -117,7 +118,7 @@ namespace GeometryForKidsApp
             // 
             this.lblPolygons.AutoSize = true;
             this.lblPolygons.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPolygons.Location = new System.Drawing.Point(43, 452);
+            this.lblPolygons.Location = new System.Drawing.Point(43, 443);
             this.lblPolygons.Name = "lblPolygons";
             this.lblPolygons.Size = new System.Drawing.Size(602, 33);
             this.lblPolygons.TabIndex = 6;
@@ -127,7 +128,7 @@ namespace GeometryForKidsApp
             // 
             this.lblProtractors.AutoSize = true;
             this.lblProtractors.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblProtractors.Location = new System.Drawing.Point(43, 379);
+            this.lblProtractors.Location = new System.Drawing.Point(43, 370);
             this.lblProtractors.Name = "lblProtractors";
             this.lblProtractors.Size = new System.Drawing.Size(601, 33);
             this.lblProtractors.TabIndex = 7;
@@ -135,6 +136,7 @@ namespace GeometryForKidsApp
             // 
             // btnNext
             // 
+            this.btnNext.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNext.Location = new System.Drawing.Point(665, 614);
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(107, 35);
@@ -147,7 +149,7 @@ namespace GeometryForKidsApp
             // 
             this.llbPerimsAndAreas.AutoSize = true;
             this.llbPerimsAndAreas.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.llbPerimsAndAreas.Location = new System.Drawing.Point(686, 172);
+            this.llbPerimsAndAreas.Location = new System.Drawing.Point(686, 163);
             this.llbPerimsAndAreas.Name = "llbPerimsAndAreas";
             this.llbPerimsAndAreas.Size = new System.Drawing.Size(30, 33);
             this.llbPerimsAndAreas.TabIndex = 9;
@@ -159,7 +161,7 @@ namespace GeometryForKidsApp
             // 
             this.llbVolumes.AutoSize = true;
             this.llbVolumes.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.llbVolumes.Location = new System.Drawing.Point(686, 240);
+            this.llbVolumes.Location = new System.Drawing.Point(686, 231);
             this.llbVolumes.Name = "llbVolumes";
             this.llbVolumes.Size = new System.Drawing.Size(35, 33);
             this.llbVolumes.TabIndex = 10;
@@ -171,7 +173,7 @@ namespace GeometryForKidsApp
             // 
             this.llbAngles.AutoSize = true;
             this.llbAngles.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.llbAngles.Location = new System.Drawing.Point(686, 308);
+            this.llbAngles.Location = new System.Drawing.Point(686, 299);
             this.llbAngles.Name = "llbAngles";
             this.llbAngles.Size = new System.Drawing.Size(35, 33);
             this.llbAngles.TabIndex = 11;
@@ -183,7 +185,7 @@ namespace GeometryForKidsApp
             // 
             this.llbProtractors.AutoSize = true;
             this.llbProtractors.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.llbProtractors.Location = new System.Drawing.Point(686, 379);
+            this.llbProtractors.Location = new System.Drawing.Point(686, 370);
             this.llbProtractors.Name = "llbProtractors";
             this.llbProtractors.Size = new System.Drawing.Size(35, 33);
             this.llbProtractors.TabIndex = 12;
@@ -195,7 +197,7 @@ namespace GeometryForKidsApp
             // 
             this.llbPolygons.AutoSize = true;
             this.llbPolygons.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.llbPolygons.Location = new System.Drawing.Point(686, 452);
+            this.llbPolygons.Location = new System.Drawing.Point(686, 443);
             this.llbPolygons.Name = "llbPolygons";
             this.llbPolygons.Size = new System.Drawing.Size(35, 33);
             this.llbPolygons.TabIndex = 13;
@@ -218,7 +220,7 @@ namespace GeometryForKidsApp
             this.lblReferences.AutoSize = true;
             this.lblReferences.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblReferences.ForeColor = System.Drawing.Color.Black;
-            this.lblReferences.Location = new System.Drawing.Point(43, 519);
+            this.lblReferences.Location = new System.Drawing.Point(43, 510);
             this.lblReferences.Name = "lblReferences";
             this.lblReferences.Size = new System.Drawing.Size(598, 33);
             this.lblReferences.TabIndex = 16;
@@ -229,7 +231,7 @@ namespace GeometryForKidsApp
             // 
             this.llbReferences.AutoSize = true;
             this.llbReferences.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.llbReferences.Location = new System.Drawing.Point(686, 519);
+            this.llbReferences.Location = new System.Drawing.Point(686, 510);
             this.llbReferences.Name = "llbReferences";
             this.llbReferences.Size = new System.Drawing.Size(35, 33);
             this.llbReferences.TabIndex = 17;

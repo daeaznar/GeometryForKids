@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace GeometryForKidsApp
@@ -22,6 +15,19 @@ namespace GeometryForKidsApp
         private void ProjectReferences_FormClosed(object sender, FormClosedEventArgs e)
         {
             parent.Show();
+        }
+
+        private void btnClose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            parent.Show();
+        }
+
+        private void btnPrevious_Click(object sender, EventArgs e)
+        {
+            PolygonsAct polygonsAct = new PolygonsAct(parent);
+            this.Close();
+            polygonsAct.Show();
         }
     }
 }

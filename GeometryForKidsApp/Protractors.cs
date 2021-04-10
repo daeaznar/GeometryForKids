@@ -23,5 +23,19 @@ namespace GeometryForKidsApp
         {
             parent.Show();
         }
+
+        private void btnNext_Click(object sender, EventArgs e)
+        {
+            ProtractorsAct protractorAct = new ProtractorsAct(parent);
+            this.Close();
+            protractorAct.Show();
+        }
+
+        private void btnPrevious_Click(object sender, EventArgs e)
+        {
+            AnglesAct anglesAct = new AnglesAct(parent);
+            this.Close();
+            anglesAct.Show();
+        }
     }
 }

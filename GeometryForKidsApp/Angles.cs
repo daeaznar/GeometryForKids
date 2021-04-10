@@ -1,11 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace GeometryForKidsApp
@@ -13,6 +7,8 @@ namespace GeometryForKidsApp
     public partial class Angles : Form
     {
         private Form parent;
+        List<Panel> panels = new List<Panel>();
+        int i;  //index
         public Angles(Form caller)
         {
             parent = caller;
@@ -21,7 +17,44 @@ namespace GeometryForKidsApp
 
         private void Angles_FormClosed(object sender, FormClosedEventArgs e)
         {
-            parent.Show();
+            if (i < 3)
+                parent.Show();
+        }
+
+        private void btnPrevious_Click(object sender, EventArgs e)
+        {
+            --i;
+            if (i < 0)
+            {
+                VolumesAct volumeAct = new VolumesAct(parent);
+                this.Close();
+                volumeAct.Show();
+            }
+            else
+                panels[i].BringToFront();
+        }
+
+        private void btnNext_Click(object sender, EventArgs e)
+        {
+            ++i;
+            if (i == 2)
+                btnNext.Text = "Continue";
+            if (i == 3)
+            {
+                AnglesAct anglesAct = new AnglesAct(parent);    //passes Index to AnglesAct
+                this.Close();
+                anglesAct.Show();
+            }
+            else
+                panels[i].BringToFront();
+        }
+
+        private void Angles_Load(object sender, EventArgs e)
+        {
+            panels.Add(pnl1);
+            panels.Add(pnl2);
+            panels.Add(pnl3);
+            panels[i].BringToFront();
         }
     }
 }

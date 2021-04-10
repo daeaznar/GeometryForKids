@@ -117,6 +117,41 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Interior angles: Interior Angles are the angles formed
+within or inside a shape. 
+Here, ∠ABC, ∠BCA and ∠CAB are interior angles. 
+Exterior angles: Exterior angles are the angles formed 
+outside between any side of a shape, and a line 
+extended from the adjoining side. 
+Here, ∠ACD is an exterior angle.</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Arms: The two rays joining to form an angle are called arms of an angle.
+Here, OA and OB are the arms of  the ∠AOB.
+Vertex: The common end point at which the two rays meet to form an 
+angle is called the vertex. 
+Here, the point O is the vertex of ∠AOB.</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Lastly we're going to tal about types of angles. There are 4 basic types plus 2 rarely used ones. 
+First of all, Angles are meassured in degrees, generally using a "protractor", which we'll learn to use later.
+
+- Acute Angles: these are the angles that are 
+smaller than 90°      
+           
+- Right Angles: these angles meassure
+exactly 90°
+
+- Obtuse Angles: from 91° o 179°
+
+- Straight Angles: Angles that meassure
+exactly 180°
+
+- Reflex Angles: from 181° to 359°
+- Complete Angles: these meassure 360°.
+The circle is the only shape that has a 360° angle</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

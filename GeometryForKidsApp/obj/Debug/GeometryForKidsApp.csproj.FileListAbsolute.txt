@@ -15,3 +15,8 @@ D:\Desktop\UNIVA\7°\Programación Visual y por Eventos\Proyecto\GeometryForKids
 D:\Desktop\UNIVA\7°\Programación Visual y por Eventos\Proyecto\GeometryForKids\GeometryForKidsApp\obj\Debug\GeometryForKidsApp.Angles.resources
 D:\Desktop\UNIVA\7°\Programación Visual y por Eventos\Proyecto\GeometryForKids\GeometryForKidsApp\obj\Debug\GeometryForKidsApp.Polygons.resources
 D:\Desktop\UNIVA\7°\Programación Visual y por Eventos\Proyecto\GeometryForKids\GeometryForKidsApp\obj\Debug\GeometryForKidsApp.Protractors.resources
+D:\Desktop\UNIVA\7°\Programación Visual y por Eventos\Proyecto\GeometryForKids\GeometryForKidsApp\obj\Debug\GeometryForKidsApp.PerimsAndAreasAct.resources
+D:\Desktop\UNIVA\7°\Programación Visual y por Eventos\Proyecto\GeometryForKids\GeometryForKidsApp\obj\Debug\GeometryForKidsApp.VolumesAct.resources
+D:\Desktop\UNIVA\7°\Programación Visual y por Eventos\Proyecto\GeometryForKids\GeometryForKidsApp\obj\Debug\GeometryForKidsApp.AnglesAct.resources
+D:\Desktop\UNIVA\7°\Programación Visual y por Eventos\Proyecto\GeometryForKids\GeometryForKidsApp\obj\Debug\GeometryForKidsApp.PolygonsAct.resources
+D:\Desktop\UNIVA\7°\Programación Visual y por Eventos\Proyecto\GeometryForKids\GeometryForKidsApp\obj\Debug\GeometryForKidsApp.ProtractorsAct.resources

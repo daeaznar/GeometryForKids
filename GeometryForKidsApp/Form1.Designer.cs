@@ -54,7 +54,7 @@ namespace GeometryForKidsApp
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(190, 218);
+            this.label2.Location = new System.Drawing.Point(207, 220);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(296, 27);
             this.label2.TabIndex = 1;
@@ -64,7 +64,7 @@ namespace GeometryForKidsApp
             // 
             this.txtName.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtName.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtName.Location = new System.Drawing.Point(225, 248);
+            this.txtName.Location = new System.Drawing.Point(242, 250);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(225, 30);
             this.txtName.TabIndex = 2;
@@ -73,7 +73,7 @@ namespace GeometryForKidsApp
             // btnGo
             // 
             this.btnGo.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGo.Location = new System.Drawing.Point(292, 310);
+            this.btnGo.Location = new System.Drawing.Point(298, 310);
             this.btnGo.Name = "btnGo";
             this.btnGo.Size = new System.Drawing.Size(115, 57);
             this.btnGo.TabIndex = 3;
@@ -93,6 +93,7 @@ namespace GeometryForKidsApp
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);

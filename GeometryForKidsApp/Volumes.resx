@@ -117,6 +117,33 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label4.Text" xml:space="preserve">
+    <value>To understand what a volume is, first we need to talk about three-dimensions o three-dimensional shapes.
+In geometry, a three-dimensional shape can be defined as a solid figure or an object or shape that has three 
+dimensions:
+– Length 
+–Width
+–Height</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Unlike two-dimensional shapes, three-dimensional shapes 
+have thickness or depth.
+
+
+The attributes of a three-dimensional figure are faces, edges and vertices. The three dimensions compose 
+the edges of a 3D geometric shape.</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>The volume of an object is measured in cubic units such as 
+cubic centimeters, cubic inch, cubic meter, etc.
+Here, for example, the volume of the cube or rectangular 
+prism, with unit cubes is determined in cubic units.</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>*Fun Fact*
+Another way of measuring the volume of an object is to completely submerge the object in water and then, 
+measure the volume of water displaced by the object. The volume of the object is the amount of water displaced.  </value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
