@@ -1,11 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace GeometryForKidsApp
@@ -13,6 +7,8 @@ namespace GeometryForKidsApp
     public partial class Protractors : Form
     {
         private Form parent;
+        List<Panel> panels = new List<Panel>();
+        int i = 0;  //index
         public Protractors(Form caller)
         {
             parent = caller;
@@ -21,21 +17,41 @@ namespace GeometryForKidsApp
 
         private void Protractors_FormClosed(object sender, FormClosedEventArgs e)
         {
-            parent.Show();
+            if (i != 2 && i >= 0)
+                parent.Show();
         }
 
         private void btnNext_Click(object sender, EventArgs e)
         {
-            ProtractorsAct protractorAct = new ProtractorsAct(parent);
-            this.Close();
-            protractorAct.Show();
+            ++i;
+            if (i == 2)
+            {
+                ProtractorsAct protractorAct = new ProtractorsAct(parent);
+                this.Close();
+                protractorAct.Show();
+            }
+            else
+                panels[i].BringToFront();
         }
 
         private void btnPrevious_Click(object sender, EventArgs e)
         {
-            AnglesAct anglesAct = new AnglesAct(parent);
-            this.Close();
-            anglesAct.Show();
+            --i;
+            if (i < 0)
+            {
+                AnglesAct anglesAct = new AnglesAct(parent);
+                this.Close();
+                anglesAct.Show();
+            }
+            else
+                panels[i].BringToFront();
+        }
+
+        private void Protractors_Load(object sender, EventArgs e)
+        {
+            panels.Add(pnl1);
+            panels.Add(pnl2);
+            panels[i].BringToFront();
         }
     }
 }

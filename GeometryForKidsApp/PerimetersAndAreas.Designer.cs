@@ -104,7 +104,7 @@ namespace GeometryForKidsApp
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(140, 47);
             this.btnNext.TabIndex = 2;
-            this.btnNext.Text = "Next Page";
+            this.btnNext.Text = "Continue";
             this.btnNext.UseVisualStyleBackColor = true;
             this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
@@ -115,7 +115,7 @@ namespace GeometryForKidsApp
             this.btnPrevious.Name = "btnPrevious";
             this.btnPrevious.Size = new System.Drawing.Size(146, 47);
             this.btnPrevious.TabIndex = 3;
-            this.btnPrevious.Text = "Previous Page";
+            this.btnPrevious.Text = "Go Back";
             this.btnPrevious.UseVisualStyleBackColor = true;
             this.btnPrevious.Click += new System.EventHandler(this.btnPrevious_Click);
             // 
@@ -167,7 +167,7 @@ namespace GeometryForKidsApp
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(14, 259);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(673, 182);
+            this.label4.Size = new System.Drawing.Size(664, 182);
             this.label4.TabIndex = 7;
             this.label4.Text = resources.GetString("label4.Text");
             // 
@@ -307,9 +307,10 @@ namespace GeometryForKidsApp
             // label10
             // 
             this.label10.AutoSize = true;
+            this.label10.ForeColor = System.Drawing.Color.White;
             this.label10.Location = new System.Drawing.Point(28, 52);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(1019, 416);
+            this.label10.Size = new System.Drawing.Size(1010, 416);
             this.label10.TabIndex = 6;
             this.label10.Text = resources.GetString("label10.Text");
             // 
@@ -349,6 +350,7 @@ namespace GeometryForKidsApp
             // label13
             // 
             this.label13.AutoSize = true;
+            this.label13.ForeColor = System.Drawing.Color.White;
             this.label13.Location = new System.Drawing.Point(34, 78);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(758, 26);
@@ -368,12 +370,13 @@ namespace GeometryForKidsApp
             // label12
             // 
             this.label12.AutoSize = true;
+            this.label12.ForeColor = System.Drawing.Color.White;
             this.label12.Location = new System.Drawing.Point(34, 186);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(463, 52);
+            this.label12.Size = new System.Drawing.Size(487, 52);
             this.label12.TabIndex = 14;
             this.label12.Text = "Now, to calculate the circumference of a circle we \r\nmultiply pi by the diameter " +
-    "or, pi by radius times 2.";
+    "or, pi by 2 times the radius.";
             // 
             // label11
             // 
@@ -400,6 +403,7 @@ namespace GeometryForKidsApp
             // label15
             // 
             this.label15.AutoSize = true;
+            this.label15.ForeColor = System.Drawing.Color.White;
             this.label15.Location = new System.Drawing.Point(585, 203);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(452, 260);
@@ -419,6 +423,7 @@ namespace GeometryForKidsApp
             // label14
             // 
             this.label14.AutoSize = true;
+            this.label14.ForeColor = System.Drawing.Color.White;
             this.label14.Location = new System.Drawing.Point(8, 59);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(1042, 130);
@@ -450,6 +455,7 @@ namespace GeometryForKidsApp
             // label17
             // 
             this.label17.AutoSize = true;
+            this.label17.ForeColor = System.Drawing.Color.White;
             this.label17.Location = new System.Drawing.Point(8, 155);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(388, 208);
@@ -469,6 +475,7 @@ namespace GeometryForKidsApp
             // label18
             // 
             this.label18.AutoSize = true;
+            this.label18.ForeColor = System.Drawing.Color.White;
             this.label18.Location = new System.Drawing.Point(8, 59);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(1011, 52);
@@ -494,13 +501,13 @@ namespace GeometryForKidsApp
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Salmon;
             this.ClientSize = new System.Drawing.Size(1098, 618);
-            this.Controls.Add(this.pnl7);
-            this.Controls.Add(this.pnl6);
-            this.Controls.Add(this.pnl5);
-            this.Controls.Add(this.pnl4);
             this.Controls.Add(this.pnl1);
             this.Controls.Add(this.pnl2);
             this.Controls.Add(this.pnl3);
+            this.Controls.Add(this.pnl4);
+            this.Controls.Add(this.pnl5);
+            this.Controls.Add(this.pnl6);
+            this.Controls.Add(this.pnl7);
             this.Controls.Add(this.lblPageNumber);
             this.Controls.Add(this.btnPrevious);
             this.Controls.Add(this.btnNext);
@@ -510,7 +517,7 @@ namespace GeometryForKidsApp
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "PerimetersAndAreas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = " ";
+            this.Text = " Perimeters And Areas";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.PerimetersAndAreas_FormClosed);
             this.Load += new System.EventHandler(this.PerimetersAndAreas_Load);
             this.pnl1.ResumeLayout(false);

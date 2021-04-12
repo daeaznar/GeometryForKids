@@ -407,9 +407,9 @@ namespace GeometryForKidsApp
             this.lblPageNumber.AutoSize = true;
             this.lblPageNumber.Location = new System.Drawing.Point(290, 671);
             this.lblPageNumber.Name = "lblPageNumber";
-            this.lblPageNumber.Size = new System.Drawing.Size(19, 21);
+            this.lblPageNumber.Size = new System.Drawing.Size(28, 21);
             this.lblPageNumber.TabIndex = 56;
-            this.lblPageNumber.Text = "#";
+            this.lblPageNumber.Text = "12";
             // 
             // ProjectReferences
             // 

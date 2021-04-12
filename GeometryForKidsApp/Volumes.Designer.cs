@@ -84,6 +84,7 @@ namespace GeometryForKidsApp
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(14, 60);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(965, 156);
@@ -93,6 +94,7 @@ namespace GeometryForKidsApp
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(14, 260);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(941, 156);
@@ -106,7 +108,7 @@ namespace GeometryForKidsApp
             this.btnPrevious.Name = "btnPrevious";
             this.btnPrevious.Size = new System.Drawing.Size(146, 47);
             this.btnPrevious.TabIndex = 8;
-            this.btnPrevious.Text = "Previous Page";
+            this.btnPrevious.Text = "Go Back";
             this.btnPrevious.UseVisualStyleBackColor = true;
             this.btnPrevious.Click += new System.EventHandler(this.btnPrevious_Click);
             // 
@@ -118,7 +120,7 @@ namespace GeometryForKidsApp
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(140, 47);
             this.btnNext.TabIndex = 9;
-            this.btnNext.Text = "Next Page";
+            this.btnNext.Text = "Continue";
             this.btnNext.UseVisualStyleBackColor = true;
             this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
@@ -127,9 +129,9 @@ namespace GeometryForKidsApp
             this.lblPageNumber.AutoSize = true;
             this.lblPageNumber.Location = new System.Drawing.Point(515, 550);
             this.lblPageNumber.Name = "lblPageNumber";
-            this.lblPageNumber.Size = new System.Drawing.Size(28, 26);
+            this.lblPageNumber.Size = new System.Drawing.Size(24, 26);
             this.lblPageNumber.TabIndex = 10;
-            this.lblPageNumber.Text = "#";
+            this.lblPageNumber.Text = "4";
             // 
             // pnl1
             // 
@@ -178,6 +180,7 @@ namespace GeometryForKidsApp
             // label8
             // 
             this.label8.AutoSize = true;
+            this.label8.ForeColor = System.Drawing.Color.White;
             this.label8.Location = new System.Drawing.Point(388, 122);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(546, 104);
@@ -199,6 +202,7 @@ namespace GeometryForKidsApp
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(3, 285);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(528, 104);
@@ -208,6 +212,7 @@ namespace GeometryForKidsApp
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(3, 60);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(1002, 52);
@@ -251,6 +256,7 @@ namespace GeometryForKidsApp
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.White;
             this.label9.Location = new System.Drawing.Point(3, 389);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(796, 60);
@@ -260,6 +266,7 @@ namespace GeometryForKidsApp
             // label11
             // 
             this.label11.AutoSize = true;
+            this.label11.ForeColor = System.Drawing.Color.White;
             this.label11.Location = new System.Drawing.Point(3, 54);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(969, 52);
@@ -285,9 +292,9 @@ namespace GeometryForKidsApp
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PaleVioletRed;
             this.ClientSize = new System.Drawing.Size(1053, 609);
-            this.Controls.Add(this.pnl3);
-            this.Controls.Add(this.pnl2);
             this.Controls.Add(this.pnl1);
+            this.Controls.Add(this.pnl2);
+            this.Controls.Add(this.pnl3);
             this.Controls.Add(this.lblPageNumber);
             this.Controls.Add(this.btnNext);
             this.Controls.Add(this.btnPrevious);

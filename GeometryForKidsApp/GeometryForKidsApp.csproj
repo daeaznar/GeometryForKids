@@ -278,5 +278,116 @@
   <ItemGroup>
     <None Include="Resources\AngleTypes.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\protractor.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\protractor_example.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\protractor_example2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\protractor_example3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\protractor_example3 %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\polygons.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\regularPolygons.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\irregularPolygons.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\various regular polygons.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\polygons table.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\square.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rectangle.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\triangle.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circle1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cube.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sphere.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cylinder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Question.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Acute Angle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Obtuse Angle upside-down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Obtuse Angle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reflex Angle.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Right Angle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Straight Angle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ej1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ej2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ej3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ej4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ej5.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ej6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\polygons %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\polygons %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\polygons %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\irregularPolygons %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\irregularPolygons %283%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

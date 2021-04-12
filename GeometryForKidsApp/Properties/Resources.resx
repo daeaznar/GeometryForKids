@@ -118,67 +118,178 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="1545205512_Parts-of-an-angle-arms-vertex" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1545205512_Parts-of-an-angle-arms-vertex.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="circle1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\circle1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="lines (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lines (3).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Right Angle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Right Angle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="1545883041_Unit-squares-in-area-in-square-centimeters" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1545883041_Unit-squares-in-area-in-square-centimeters.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="sphere" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sphere.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="circle concepts" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\circle concepts.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="protractor_example3 (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\protractor_example3 (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="circle meassurements" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\circle meassurements.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="polygons (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\polygons (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="lines (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lines (4).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="lines" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\lines.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Three-dimensions" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Three-dimensions.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1551255455_3-Dimensional-Space-occupied-Volume" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1551255455_3-Dimensional-Space-occupied-Volume.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Polygon_perimeterTable2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Polygon_perimeterTable2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Polygon_volumeTable" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Polygon_volumeTable.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Football-Field-Dimensions-654x413" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Football-Field-Dimensions-654x413.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Polygon_areaTable" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Polygon_areaTable.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="circumference formula" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\circumference formula.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="pi" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1545205512_Interior-and-exterior-angles" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1545205512_Interior-and-exterior-angles.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1545205512_Angle-Naming-an-angle" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1545205512_Angle-Naming-an-angle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Polygon_perimeterTable" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Polygon_perimeterTable.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1551255455_3-Dimensional-Shape-calculating-volume-in-cubic-units" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1551255455_3-Dimensional-Shape-calculating-volume-in-cubic-units.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="protractor_example3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\protractor_example3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="lines (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lines (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="1545883041_Unit-squares-in-area-in-square-centimeters" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1545883041_Unit-squares-in-area-in-square-centimeters.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lines (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lines (4).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="polygons table" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\polygons table.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1545205512_Interior-and-exterior-angles" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1545205512_Interior-and-exterior-angles.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="circle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\circle.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Polygon_areaTable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Polygon_areaTable.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="protractor_example" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\protractor_example.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cylinder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cylinder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1545205512_Parts-of-an-angle-arms-vertex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1545205512_Parts-of-an-angle-arms-vertex.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="polygons" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\polygons.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="circumference formula" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\circumference formula.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cube" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cube.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Polygon_volumeTable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Polygon_volumeTable.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Polygon_perimeterTable2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Polygon_perimeterTable2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="protractor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\protractor.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="various regular polygons" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\various regular polygons.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="irregularPolygons (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\irregularPolygons (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ej6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ej6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ej2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ej2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Three-dimensions" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Three-dimensions.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="polygons (4)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\polygons (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lines" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lines.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ej3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ej3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Straight Angle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Straight Angle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="protractor_example2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\protractor_example2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="irregularPolygons" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\irregularPolygons.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="triangle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\triangle.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ej5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ej5.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Polygon_perimeterTable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Polygon_perimeterTable.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="square" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\square.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1545205512_Angle-Naming-an-angle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1545205512_Angle-Naming-an-angle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rectangle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rectangle.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lines (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lines (3).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1551255455_3-Dimensional-Shape-calculating-volume-in-cubic-units" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1551255455_3-Dimensional-Shape-calculating-volume-in-cubic-units.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Obtuse Angle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Obtuse Angle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="circle meassurements" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\circle meassurements.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Acute Angle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Acute Angle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Reflex Angle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Reflex Angle.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="regularPolygons" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\regularPolygons.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ej1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ej1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ej4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ej4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Obtuse Angle upside-down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Obtuse Angle upside-down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="polygons (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\polygons (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Football-Field-Dimensions-654x413" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Football-Field-Dimensions-654x413.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="AngleTypes" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\AngleTypes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1551255455_3-Dimensional-Space-occupied-Volume" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1551255455_3-Dimensional-Space-occupied-Volume.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="circle concepts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\circle concepts.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Question" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Question.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="irregularPolygons (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\irregularPolygons (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

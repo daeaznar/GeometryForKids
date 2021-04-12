@@ -8,7 +8,7 @@ namespace GeometryForKidsApp
     {
         private Form parent;
         List<Panel> panels = new List<Panel>();
-        int i;  //index
+        int i = 0;  //index
         public Angles(Form caller)
         {
             parent = caller;
@@ -17,7 +17,7 @@ namespace GeometryForKidsApp
 
         private void Angles_FormClosed(object sender, FormClosedEventArgs e)
         {
-            if (i < 3)
+            if (i != 3 && i >= 0)
                 parent.Show();
         }
 
@@ -37,8 +37,6 @@ namespace GeometryForKidsApp
         private void btnNext_Click(object sender, EventArgs e)
         {
             ++i;
-            if (i == 2)
-                btnNext.Text = "Continue";
             if (i == 3)
             {
                 AnglesAct anglesAct = new AnglesAct(parent);    //passes Index to AnglesAct

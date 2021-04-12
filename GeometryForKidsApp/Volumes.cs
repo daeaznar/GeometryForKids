@@ -7,7 +7,7 @@ namespace GeometryForKidsApp
     {
         private Form parent;
         List<Panel> panels = new List<Panel>();
-        int i;  //index
+        int i = 0;  //index
         public Volumes(Form caller)
         {
             parent = caller;
@@ -16,7 +16,7 @@ namespace GeometryForKidsApp
 
         private void Volumes_FormClosed(object sender, FormClosedEventArgs e)
         {
-            if (i < 3)
+            if (i != 3 && i >= 0)   //if form doesn't reach beginning or end
                 parent.Show();
         }
 
@@ -36,8 +36,6 @@ namespace GeometryForKidsApp
         private void btnNext_Click(object sender, System.EventArgs e)
         {
             ++i;
-            if (i == 2)
-                btnNext.Text = "Continue";
             if (i == 3)
             {
                 VolumesAct volumesAct = new VolumesAct(parent);    //passes Form1 to Form3

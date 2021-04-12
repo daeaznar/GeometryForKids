@@ -15,6 +15,12 @@ namespace GeometryForKidsApp
             InitializeComponent();
         }
 
+        private void PerimetersAndAreas_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            if (i < 7)
+                parent.Show();
+        }
+
         private void btnPrevious_Click(object sender, EventArgs e)
         {
             --i;
@@ -27,17 +33,9 @@ namespace GeometryForKidsApp
                 panels[i].BringToFront();
         }
 
-        private void PerimetersAndAreas_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            if (i < 7)
-                parent.Show();
-        }
-
         private void btnNext_Click(object sender, EventArgs e)
         {
             ++i;
-            if (i == 6)
-                btnNext.Text = "Continue";
             if (i == 7)
             {
                 PerimsAndAreasAct perimsAndAreasAct = new PerimsAndAreasAct(parent);    //passes Form1 to Form3

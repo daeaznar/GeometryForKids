@@ -34,35 +34,36 @@ namespace GeometryForKidsApp
             this.btnPrevious = new System.Windows.Forms.Button();
             this.btnNext = new System.Windows.Forms.Button();
             this.pnl1 = new System.Windows.Forms.Panel();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.pnl2 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.pnl3 = new System.Windows.Forms.Panel();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.pnl2 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.pnl3 = new System.Windows.Forms.Panel();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.lblPageNumber = new System.Windows.Forms.Label();
             this.pnl1.SuspendLayout();
-            this.pnl2.SuspendLayout();
-            this.pnl3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            this.pnl2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            this.pnl3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -82,7 +83,7 @@ namespace GeometryForKidsApp
             this.btnPrevious.Name = "btnPrevious";
             this.btnPrevious.Size = new System.Drawing.Size(146, 47);
             this.btnPrevious.TabIndex = 10;
-            this.btnPrevious.Text = "Previous Page";
+            this.btnPrevious.Text = "Go Back";
             this.btnPrevious.UseVisualStyleBackColor = true;
             this.btnPrevious.Click += new System.EventHandler(this.btnPrevious_Click);
             // 
@@ -94,7 +95,7 @@ namespace GeometryForKidsApp
             this.btnNext.Name = "btnNext";
             this.btnNext.Size = new System.Drawing.Size(140, 47);
             this.btnNext.TabIndex = 11;
-            this.btnNext.Text = "Next Page";
+            this.btnNext.Text = "Continue";
             this.btnNext.UseVisualStyleBackColor = true;
             this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
@@ -112,6 +113,69 @@ namespace GeometryForKidsApp
             this.pnl1.Name = "pnl1";
             this.pnl1.Size = new System.Drawing.Size(985, 476);
             this.pnl1.TabIndex = 15;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::GeometryForKidsApp.Properties.Resources._1545205512_Angle_Naming_an_angle;
+            this.pictureBox3.Location = new System.Drawing.Point(739, 307);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(222, 153);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 22;
+            this.pictureBox3.TabStop = false;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(25, 328);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(708, 78);
+            this.label3.TabIndex = 21;
+            this.label3.Text = "In geometry, an angle can be defined as the figure formed by two rays meeting\r\nat" +
+    " a common end point.\r\nAn angle is represented by the symbol ∠. Here, the angle i" +
+    "s ∠AOB.";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::GeometryForKidsApp.Properties.Resources.lines__4_;
+            this.pictureBox2.Location = new System.Drawing.Point(256, 195);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(457, 63);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 20;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::GeometryForKidsApp.Properties.Resources.lines__3_;
+            this.pictureBox1.Location = new System.Drawing.Point(576, 96);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(341, 79);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 19;
+            this.pictureBox1.TabStop = false;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(25, 286);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(202, 30);
+            this.label2.TabIndex = 18;
+            this.label2.Text = "What is an Angle?";
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = global::GeometryForKidsApp.Properties.Resources.lines__2_;
+            this.pictureBox8.Location = new System.Drawing.Point(21, 96);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(395, 79);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox8.TabIndex = 17;
+            this.pictureBox8.TabStop = false;
             // 
             // label18
             // 
@@ -135,29 +199,6 @@ namespace GeometryForKidsApp
             this.label19.TabIndex = 13;
             this.label19.Text = "Lines before Angles";
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(25, 286);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(202, 30);
-            this.label2.TabIndex = 18;
-            this.label2.Text = "What is an Angle?";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(25, 328);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(708, 78);
-            this.label3.TabIndex = 21;
-            this.label3.Text = "In geometry, an angle can be defined as the figure formed by two rays meeting\r\nat" +
-    " a common end point.\r\nAn angle is represented by the symbol ∠. Here, the angle i" +
-    "s ∠AOB.";
-            // 
             // pnl2
             // 
             this.pnl2.Controls.Add(this.label4);
@@ -171,6 +212,26 @@ namespace GeometryForKidsApp
             this.pnl2.Size = new System.Drawing.Size(985, 478);
             this.pnl2.TabIndex = 16;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(463, 255);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(496, 182);
+            this.label4.TabIndex = 23;
+            this.label4.Text = resources.GetString("label4.Text");
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::GeometryForKidsApp.Properties.Resources._1545205512_Interior_and_exterior_angles;
+            this.pictureBox4.Location = new System.Drawing.Point(47, 238);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(343, 204);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 22;
+            this.pictureBox4.TabStop = false;
+            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -181,6 +242,16 @@ namespace GeometryForKidsApp
             this.label5.Size = new System.Drawing.Size(305, 30);
             this.label5.TabIndex = 18;
             this.label5.Text = "Interior and Exterior Angles";
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::GeometryForKidsApp.Properties.Resources._1545205512_Parts_of_an_angle_arms_vertex;
+            this.pictureBox7.Location = new System.Drawing.Point(721, 24);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(194, 173);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 17;
+            this.pictureBox7.TabStop = false;
             // 
             // label6
             // 
@@ -203,16 +274,6 @@ namespace GeometryForKidsApp
             this.label7.TabIndex = 13;
             this.label7.Text = "Parts of an Angle";
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(463, 255);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(496, 182);
-            this.label4.TabIndex = 23;
-            this.label4.Text = resources.GetString("label4.Text");
-            // 
             // pnl3
             // 
             this.pnl3.Controls.Add(this.pictureBox5);
@@ -222,6 +283,16 @@ namespace GeometryForKidsApp
             this.pnl3.Name = "pnl3";
             this.pnl3.Size = new System.Drawing.Size(985, 477);
             this.pnl3.TabIndex = 17;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::GeometryForKidsApp.Properties.Resources.AngleTypes;
+            this.pictureBox5.Location = new System.Drawing.Point(474, 142);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(491, 299);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 22;
+            this.pictureBox5.TabStop = false;
             // 
             // label10
             // 
@@ -244,75 +315,14 @@ namespace GeometryForKidsApp
             this.label11.TabIndex = 13;
             this.label11.Text = "Types of Angles";
             // 
-            // pictureBox5
+            // lblPageNumber
             // 
-            this.pictureBox5.Image = global::GeometryForKidsApp.Properties.Resources.AngleTypes;
-            this.pictureBox5.Location = new System.Drawing.Point(474, 142);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(491, 299);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 22;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::GeometryForKidsApp.Properties.Resources._1545205512_Interior_and_exterior_angles;
-            this.pictureBox4.Location = new System.Drawing.Point(47, 238);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(343, 204);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 22;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = global::GeometryForKidsApp.Properties.Resources._1545205512_Parts_of_an_angle_arms_vertex;
-            this.pictureBox7.Location = new System.Drawing.Point(721, 24);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(194, 173);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 17;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::GeometryForKidsApp.Properties.Resources._1545205512_Angle_Naming_an_angle;
-            this.pictureBox3.Location = new System.Drawing.Point(739, 307);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(222, 153);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 22;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::GeometryForKidsApp.Properties.Resources.lines__4_;
-            this.pictureBox2.Location = new System.Drawing.Point(256, 195);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(457, 63);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 20;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::GeometryForKidsApp.Properties.Resources.lines__3_;
-            this.pictureBox1.Location = new System.Drawing.Point(576, 96);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(341, 79);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 19;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Image = global::GeometryForKidsApp.Properties.Resources.lines__2_;
-            this.pictureBox8.Location = new System.Drawing.Point(21, 96);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(395, 79);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox8.TabIndex = 17;
-            this.pictureBox8.TabStop = false;
+            this.lblPageNumber.AutoSize = true;
+            this.lblPageNumber.Location = new System.Drawing.Point(505, 562);
+            this.lblPageNumber.Name = "lblPageNumber";
+            this.lblPageNumber.Size = new System.Drawing.Size(24, 26);
+            this.lblPageNumber.TabIndex = 18;
+            this.lblPageNumber.Text = "6";
             // 
             // Angles
             // 
@@ -320,6 +330,7 @@ namespace GeometryForKidsApp
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SteelBlue;
             this.ClientSize = new System.Drawing.Size(1034, 611);
+            this.Controls.Add(this.lblPageNumber);
             this.Controls.Add(this.pnl2);
             this.Controls.Add(this.pnl1);
             this.Controls.Add(this.pnl3);
@@ -336,17 +347,17 @@ namespace GeometryForKidsApp
             this.Load += new System.EventHandler(this.Angles_Load);
             this.pnl1.ResumeLayout(false);
             this.pnl1.PerformLayout();
-            this.pnl2.ResumeLayout(false);
-            this.pnl2.PerformLayout();
-            this.pnl3.ResumeLayout(false);
-            this.pnl3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            this.pnl2.ResumeLayout(false);
+            this.pnl2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            this.pnl3.ResumeLayout(false);
+            this.pnl3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -377,5 +388,6 @@ namespace GeometryForKidsApp
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label lblPageNumber;
     }
 }

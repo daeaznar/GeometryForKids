@@ -63,10 +63,10 @@ namespace GeometryForKidsApp
             // 
             // btnExit
             // 
-            this.btnExit.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExit.Location = new System.Drawing.Point(12, 614);
+            this.btnExit.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.Location = new System.Drawing.Point(12, 602);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(79, 35);
+            this.btnExit.Size = new System.Drawing.Size(140, 47);
             this.btnExit.TabIndex = 1;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
@@ -136,12 +136,12 @@ namespace GeometryForKidsApp
             // 
             // btnNext
             // 
-            this.btnNext.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNext.Location = new System.Drawing.Point(665, 614);
+            this.btnNext.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNext.Location = new System.Drawing.Point(632, 602);
             this.btnNext.Name = "btnNext";
-            this.btnNext.Size = new System.Drawing.Size(107, 35);
+            this.btnNext.Size = new System.Drawing.Size(140, 47);
             this.btnNext.TabIndex = 8;
-            this.btnNext.Text = "Next Page";
+            this.btnNext.Text = "Continue";
             this.btnNext.UseVisualStyleBackColor = true;
             this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
@@ -163,10 +163,10 @@ namespace GeometryForKidsApp
             this.llbVolumes.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.llbVolumes.Location = new System.Drawing.Point(686, 231);
             this.llbVolumes.Name = "llbVolumes";
-            this.llbVolumes.Size = new System.Drawing.Size(35, 33);
+            this.llbVolumes.Size = new System.Drawing.Size(30, 33);
             this.llbVolumes.TabIndex = 10;
             this.llbVolumes.TabStop = true;
-            this.llbVolumes.Text = "#";
+            this.llbVolumes.Text = "4";
             this.llbVolumes.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llbVolumes_LinkClicked);
             // 
             // llbAngles
@@ -175,10 +175,10 @@ namespace GeometryForKidsApp
             this.llbAngles.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.llbAngles.Location = new System.Drawing.Point(686, 299);
             this.llbAngles.Name = "llbAngles";
-            this.llbAngles.Size = new System.Drawing.Size(35, 33);
+            this.llbAngles.Size = new System.Drawing.Size(30, 33);
             this.llbAngles.TabIndex = 11;
             this.llbAngles.TabStop = true;
-            this.llbAngles.Text = "#";
+            this.llbAngles.Text = "6";
             this.llbAngles.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llbAngles_LinkClicked);
             // 
             // llbProtractors
@@ -187,10 +187,10 @@ namespace GeometryForKidsApp
             this.llbProtractors.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.llbProtractors.Location = new System.Drawing.Point(686, 370);
             this.llbProtractors.Name = "llbProtractors";
-            this.llbProtractors.Size = new System.Drawing.Size(35, 33);
+            this.llbProtractors.Size = new System.Drawing.Size(30, 33);
             this.llbProtractors.TabIndex = 12;
             this.llbProtractors.TabStop = true;
-            this.llbProtractors.Text = "#";
+            this.llbProtractors.Text = "8";
             this.llbProtractors.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llbProtractors_LinkClicked);
             // 
             // llbPolygons
@@ -199,10 +199,10 @@ namespace GeometryForKidsApp
             this.llbPolygons.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.llbPolygons.Location = new System.Drawing.Point(686, 443);
             this.llbPolygons.Name = "llbPolygons";
-            this.llbPolygons.Size = new System.Drawing.Size(35, 33);
+            this.llbPolygons.Size = new System.Drawing.Size(41, 33);
             this.llbPolygons.TabIndex = 13;
             this.llbPolygons.TabStop = true;
-            this.llbPolygons.Text = "#";
+            this.llbPolygons.Text = "10";
             this.llbPolygons.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llbPolygons_LinkClicked);
             // 
             // lblPageNumber
@@ -233,10 +233,10 @@ namespace GeometryForKidsApp
             this.llbReferences.Font = new System.Drawing.Font("Comic Sans MS", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.llbReferences.Location = new System.Drawing.Point(686, 510);
             this.llbReferences.Name = "llbReferences";
-            this.llbReferences.Size = new System.Drawing.Size(35, 33);
+            this.llbReferences.Size = new System.Drawing.Size(41, 33);
             this.llbReferences.TabIndex = 17;
             this.llbReferences.TabStop = true;
-            this.llbReferences.Text = "#";
+            this.llbReferences.Text = "12";
             this.llbReferences.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // Index
